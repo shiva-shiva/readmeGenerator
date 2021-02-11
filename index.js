@@ -1,12 +1,14 @@
-
+//import {generateMarkdown} from './generateMarkdown.js';
+var generateMarkdown = require('./generateMarkdown.js')
 var inquirer = require('inquirer')
+var fs = require('fs')
 
 async function ReadMe(){
    
    const Response = await inquirer.prompt([
         {
            type:"input",
-           name: "project_title",
+           name:'title',
            message:"What is your project tittled?"
         },
         {
@@ -54,7 +56,9 @@ async function ReadMe(){
             message: "Enter your github username"
           }
     ]);
-  
-}
 
+    fs.writeFileSync( 'Readme.md', generateMarkdown(Response) )
+}
 ReadMe()
+//const output= ReadMe().then(Response => generateMarkdown(Response.title))
+//fs.writeFileSync( 'Readme.md', output )
