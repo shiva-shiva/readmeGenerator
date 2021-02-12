@@ -16,15 +16,17 @@ module.exports = function generateMarkdown(Response , userInfo) {
     let tebleOfContent =` ## Table of Contents`
 
    if(Response.description !== ''){
-    tebleOfContent += `*[Description](#Description)`
+    tebleOfContent += `
+      * [Description](#Description)`
    }
    if(Response.installation !== ''){
-    tebleOfContent += `*[Installation](#installation)`;
+    tebleOfContent += `
+    * [Installation](#installation)`;
 
    }
    if(Response.usage !== ''){
     tebleOfContent += `
-     *[Usage](#usage)`
+     * [Usage](#usage)`
    } 
    if(Response.contributing  !== ''){
     tebleOfContent += ` 
@@ -47,6 +49,8 @@ module.exports = function generateMarkdown(Response , userInfo) {
    ## Description 
    ${Response.description}
 
+   ## Installation 
+   ${Response.installation}
  `  
   // Add Table of Contents to markdown
     ReadMePage += tebleOfContent

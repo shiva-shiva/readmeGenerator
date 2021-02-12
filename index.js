@@ -55,7 +55,7 @@ async function ReadMe(){
             message: "Enter your github username"
           }
     ]);
-     const userInfo = await api.getUser(Response)
+     //const userInfo = await api.getUser(Response)
     fs.writeFileSync( 'Readme.md', generateMarkdown(Response , userInfo) )
 }
 ReadMe()
