@@ -2,6 +2,7 @@
 var generateMarkdown = require('./generateMarkdown.js')
 var inquirer = require('inquirer')
 var fs = require('fs')
+const api = require('./api.js');
 
 async function ReadMe(){
    
@@ -23,27 +24,25 @@ async function ReadMe(){
         },
         {
             type: "input",
-            name: "use",
+            name: "usage",
             message: "What is the use of the application"
           },
           {
             type: "input",
-            name: "contributions",
+            name: "contributing ",
             message: "Are there any contribution rules?"
           },
           {
             type: "input",
-            name: "test",
+            name: "tests",
             message: "Please provide test instructions if applicable"
           },
           {
             type: "checkbox",
             message: "License?",
             name: "license",
-            choices: [
-              "[MIT License](LICENSE.txt)", 
-              "[GNU GPLv3 License](COPYING.txt)", 
-            ]
+            choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense'],
+            
           },
           {
             type: "input",
@@ -56,8 +55,8 @@ async function ReadMe(){
             message: "Enter your github username"
           }
     ]);
-
-    fs.writeFileSync( 'Readme.md', generateMarkdown(Response) )
+     const userInfo = await api.getUser(Response)
+    fs.writeFileSync( 'Readme.md', generateMarkdown(Response , userInfo) )
 }
 ReadMe()
 //const output= ReadMe().then(Response => generateMarkdown(Response.title))
