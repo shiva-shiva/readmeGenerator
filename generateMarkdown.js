@@ -21,7 +21,8 @@ module.exports = function generateMarkdown(Response , userInfo) {
    }
    if(Response.installation !== ''){
     tebleOfContent += `
-     * [Installation](#installation)`
+    * [Installation](#installation)` };
+
    }
    if(Response.usage !== ''){
     tebleOfContent += `
