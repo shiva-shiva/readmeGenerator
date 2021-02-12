@@ -80,7 +80,6 @@ module.exports = function generateMarkdown(Response) {
 
      if(Response.license !==''){
       ReadMePage += `\n## License\n${Response.license}
-        ![badge](https://img.shields.io/badge/license-${Response.license}-brightgreen)<br />
        ![Badge for GitHub licence](https://img.shields.io/github/license/${Response.username}/${Response.repo}?style=flat&logo=appveyor)
       `
      };
