@@ -16,12 +16,10 @@ module.exports = function generateMarkdown(Response , userInfo) {
     let tebleOfContent =` ## Table of Contents`
 
    if(Response.description !== ''){
-    tebleOfContent += `
-      [Description](#Description)`
+    tebleOfContent += `[Description](#Description)`
    }
    if(Response.installation !== ''){
-    tebleOfContent += `
-     [Installation](#installation)`;
+    tebleOfContent += `[Installation](#installation)`;
 
    }
    if(Response.usage !== ''){
