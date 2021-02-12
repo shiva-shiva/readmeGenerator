@@ -16,22 +16,28 @@ module.exports = function generateMarkdown(Response , userInfo) {
     let tebleOfContent =` ## Table of Contents`
 
    if(Response.description !== ''){
-     tebleOfContent += ` * [Description](#Description)`
+     tebleOfContent += `
+      * [Description](#Description)`
    }
    if(Response.installation !== ''){
-    tebleOfContent += ` * [Installation](#installation)`
+    tebleOfContent += `
+     * [Installation](#installation)`
    }
    if(Response.usage !== ''){
-    tebleOfContent += ` *[Usage](#usage)`
+    tebleOfContent += `
+     *[Usage](#usage)`
    } 
    if(Response.contributing  !== ''){
-    tebleOfContent += ` * [contributing ](#contributing )`
+    tebleOfContent += ` 
+    * [contributing ](#contributing )`
    } 
    if(Response.tests !== ''){
-    tebleOfContent += ` * [tests](#tests)`
+    tebleOfContent += ` 
+    * [tests](#tests)`
    } 
    if(Response.license !== ''){
-    tebleOfContent += ` * [license](#license)`
+    tebleOfContent += `
+     * [license](#license)`
    } 
    
 
