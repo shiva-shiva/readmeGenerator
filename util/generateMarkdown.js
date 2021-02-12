@@ -36,9 +36,8 @@ module.exports = function generateMarkdown(Response) {
    
    
    let ReadMePage = `\n<h1 align="center"> ${Response.title}👋</h1>
-   ![badge](https://img.shields.io/badge/license-${Response.license}-brightgreen)<br />
 
-   ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/${Response.username}/${Response.repo}?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/${Response.username}/${Response.repo}?style=flat&logo=appveyor)
+   <h1 align="center"> ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/${Response.username}/${Response.repo}?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/${Response.username}/${Response.repo}?style=flat&logo=appveyor)</h1>
    
 
 
