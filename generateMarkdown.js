@@ -55,7 +55,7 @@ module.exports = function generateMarkdown(Response , userInfo) {
 
     // Optional Installation section
     
-    if(Response.installation !== ''){
+    
 
       ReadMePage +=`
 
@@ -65,7 +65,7 @@ module.exports = function generateMarkdown(Response , userInfo) {
 
       * ${Response.installation}
       `
-    };
+    
 
      // Optional Installation section
 
