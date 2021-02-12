@@ -88,7 +88,7 @@ module.exports = function generateMarkdown(Response) {
    if (Response.email !== null) {
   
     ReadMePage +=`\n## Questions\nEmail: ${Response.email}
-    Follow me on Github: [${Response.github}](http://github.com/${Response.github})`;
+    Follow me on Github: [${Response.username}](http://github.com/${Response.username})`;
     };
       
   return ReadMePage;
