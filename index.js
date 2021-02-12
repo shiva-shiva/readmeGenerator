@@ -30,7 +30,7 @@ async function ReadMe(){
           {
             type: "input",
             name: "contributing ",
-            message: "Are there any contribution rules?"
+            message: "Who are the contributors of this projects?"
           },
           {
             type: "input",
@@ -39,7 +39,7 @@ async function ReadMe(){
           },
           {
             type: "checkbox",
-            message: "License?",
+            message: "Chose the appropriate license for this project:",
             name: "license",
             choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense'],
             
@@ -47,12 +47,12 @@ async function ReadMe(){
           {
             type: "input",
             name: "email",
-            message: "Enter your email account"
+            message: "Please enter your GitHub username: "
           },
           {
             type: "input",
             name: "username",
-            message: "Enter your github username"
+            message: "Please enter your email: "
           },
           {
           type: 'input',
