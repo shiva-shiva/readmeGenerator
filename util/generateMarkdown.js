@@ -60,7 +60,7 @@ module.exports = function generateMarkdown(Response) {
      // Optional Installation section
 
      if(Response.usage !==''){
-      ReadMePage += `\n## usage\n${Response.usage}
+      ReadMePage += `\n## usage\n*Run the following command at th root of your project and answer the prompted questions:*\n* ${Response.usage}
       
       `
      };
