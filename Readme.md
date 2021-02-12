@@ -1,21 +1,27 @@
 
 
-   #kk
+   #readme
 
    ## Description 
-   ll
+   it's read me project 
 
-  ## Table of Contents * [Description](#Description) * [Installation](#installation) *[Usage](#usage) * [contributing ](#contributing ) * [license](#license)
+  ## Table of Contents
+      * [Description](#Description)
+    * [Installation](#installation)
+     *[Usage](#usage) 
+    * [Contributing](#contributing )
+     * [license](#license)
+
       ## Installation 
 
       *Steps required to install project and how to get the development environment running:*
 
-      lll
+      * npm install
       
 
       ## usage
       
-      kkk
+      create read me
       
       
 
@@ -26,11 +32,11 @@
       
 
       ## License
-      
-      
+
+      licensed under the 
       
       
     ## Questions
 
-    Email: shiva
-    Follow me on Github at [ahiva-shiva](http://github.com/ahiva-shiva)
+    Email: shivasabokdast@gmail.com
+    Follow me on Github at [shiva-shiva](http://github.com/shiva-shiva)

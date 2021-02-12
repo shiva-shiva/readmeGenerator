@@ -16,12 +16,12 @@ module.exports = function generateMarkdown(Response , userInfo) {
     let tebleOfContent =` ## Table of Contents`
 
    if(Response.description !== ''){
-     tebleOfContent += `
+    tebleOfContent += `
       * [Description](#Description)`
    }
    if(Response.installation !== ''){
     tebleOfContent += `
-    * [Installation](#installation)` };
+    * [Installation](#installation)`;
 
    }
    if(Response.usage !== ''){
@@ -126,6 +126,6 @@ module.exports = function generateMarkdown(Response , userInfo) {
     };
 
       
-  return ReadMePage
+  return ReadMePage;
 
-}
+  }
