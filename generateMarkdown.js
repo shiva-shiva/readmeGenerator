@@ -11,7 +11,7 @@ function renderLicenseSection(license) {
 }
 
 // TODO: Create a function to generate markdown for README
-module.exports = function generateMarkdown(Response , userInfo) {
+module.exports = function generateMarkdown(Response) {
 
     let tebleOfContent =` ## Table of Contents`
 
