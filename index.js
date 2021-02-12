@@ -51,8 +51,13 @@ async function ReadMe(){
           },
           {
             type: "input",
-            name: "github",
+            name: "username",
             message: "Enter your github username"
+          },
+          {
+          type: 'input',
+          message: "What is the name of your GitHub repo?",
+          name: 'repo',
           }
     ]);
      //const userInfo = await api.getUser(Response)

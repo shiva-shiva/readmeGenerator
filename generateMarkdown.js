@@ -35,7 +35,10 @@ module.exports = function generateMarkdown(Response) {
    } ;
    
    
-   let ReadMePage = `\n#${Response.title}
+   let ReadMePage = `\n# ${Response.title}
+
+   ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/${Response.username}/${Response.repo}?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/${Response.username}/${Response.repo}?style=flat&logo=appveyor)
+
 
    ## Description 
    ${Response.description}
@@ -83,8 +86,7 @@ module.exports = function generateMarkdown(Response) {
 
    if (Response.email !== null) {
   
-    ReadMePage +=`\n## Questions\nEmail: ${Response.email}\n
-    Follow me on Github: [${Response.github}](http://github.com/${Response.github})`;
+    ReadMePage +=`\n## Questions\nEmail: ${Response.email}\n*Follow me on Github: [${Response.github}](http://github.com/${Response.github})`;
     };
       
   return ReadMePage;
