@@ -57,18 +57,18 @@ module.exports = function generateMarkdown(Response) {
       `
     };
 
-     // Optional Installation section
+     // Optional Usage section
 
      if(Response.usage !==''){
-      ReadMePage += `\n## usage\n*Run the following command at th root of your project and answer the prompted questions:*\n* ${Response.usage}
+      ReadMePage += `\n## usage\n*Instructions and examples for use:*\n* ${Response.usage}
       
       `
      };
 
      // Optional Contributing section
 
-     if(Response.usage !==''){
-      ReadMePage += `\n## Contributing\n*Instructions and examples for use:*\n*${Response.contributing}
+     if(Response.contributing !==''){
+      ReadMePage += `\n## Contributing\n ${Response.contributing}
       `
      };
     
@@ -89,7 +89,10 @@ module.exports = function generateMarkdown(Response) {
 
    if (Response.email !== null) {
   
-    ReadMePage +=`\n## Questions\nEmail: ${Response.email}\nFollow me on Github: [${Response.username}](http://github.com/${Response.username})`;
+    ReadMePage +=`\n## Questions\n<br />
+    :octocat: Find me on GitHub: [${Response.username}](https://github.com/${Response.username})<br />
+    <br />
+    ✉️ Email me with any questions: ${Response.email}<br /><br />`;
     };
       
   return ReadMePage;

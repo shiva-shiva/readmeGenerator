@@ -29,7 +29,7 @@ async function ReadMe(){
           },
           {
             type: "input",
-            name: "contributing ",
+            name: "contributing",
             message: "Who are the contributors of this projects?"
           },
           {
