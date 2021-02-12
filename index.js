@@ -1,8 +1,8 @@
 //import {generateMarkdown} from './generateMarkdown.js';
-var generateMarkdown = require('./generateMarkdown.js')
+var generateMarkdown = require('./util/generateMarkdown.js')
 var inquirer = require('inquirer')
 var fs = require('fs')
-const api = require('./api.js');
+const api = require('./util/api.js');
 
 async function ReadMe(){
    
