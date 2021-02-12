@@ -48,20 +48,14 @@ module.exports = function generateMarkdown(Response) {
     
     if(Response.installation !== ''){
 
-      ReadMePage +=`\n## Installation 
-
-      *Steps required to install project and how to get the development environment running:*
-
-      * ${Response.installation}
+      ReadMePage +=`\n## Installation\n*Steps required to install project and how to get the development environment running:*\n* ${Response.installation}
       `
     };
 
      // Optional Installation section
 
      if(Response.usage !==''){
-      ReadMePage += `\n## usage
-      
-      ${Response.usage}
+      ReadMePage += `\n## usage\n${Response.usage}
       
       `
      };
@@ -69,28 +63,19 @@ module.exports = function generateMarkdown(Response) {
      // Optional Contributing section
 
      if(Response.usage !==''){
-      ReadMePage += `\n## Contributing
-      
-      ${Response.contributing}
-      
+      ReadMePage += `\n## Contributing\n${Response.contributing}
       `
      };
     
 
      if(Response.tests !==''){
-      ReadMePage += `\n## Tests
-      
-      ${Response.tests}
-      
+      ReadMePage += `\n## Tests\n${Response.tests} 
       `
      };
 
 
      if(Response.license !==''){
-      ReadMePage += `\n## License
-
-      licensed under the ${Response.license}
-      
+      ReadMePage += `\n## License\nlicensed under the ${Response.license}
       `
      };
     
@@ -98,10 +83,7 @@ module.exports = function generateMarkdown(Response) {
 
    if (Response.email !== null) {
   
-    ReadMePage +=`\n## Questions
-
-    Email: ${Response.email}
-    Follow me on Github: [${Response.github}](http://github.com/${Response.github})`;
+    ReadMePage +=`\n## Questions\nEmail: ${Response.email}\nFollow me on Github: [${Response.github}](http://github.com/${Response.github})`;
     };
       
   return ReadMePage;

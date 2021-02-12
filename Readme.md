@@ -1,43 +1,29 @@
 
-#fdef
+#read me
 
    ## Description 
-   bb
+   generate read me
 
   ## Table of Contents
 * [Description](#Description)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing )
-* [Tests](#tests)
 * [license](#license)
-## Installation 
-
-      *Steps required to install project and how to get the development environment running:*
-
-      * wef
+## Installation
+*Steps required to install project and how to get the development environment running:*
+* npm install
       
 ## usage
-      
-      ffeef
+generate
       
       
 ## Contributing
-      
-      undefined
-      
-      
-## Tests
-      
-      qdfg
-      
+undefined
       
 ## License
-
-      licensed under the GNU AGPLv3,Mozilla Public License 2.0
-      
+licensed under the GNU AGPLv3,Apache License 2.0
       
 ## Questions
-
-    Email: shiva@gmail.com
-    Follow me on Github: [shiva-shiva](http://github.com/shiva-shiva)
+Email: shiva
+Follow me on Github: [shiva-shiva](http://github.com/shiva-shiva)
