@@ -16,29 +16,22 @@ module.exports = function generateMarkdown(Response) {
     let tebleOfContent =` ## Table of Contents`
 
    if(Response.description !== ''){
-    tebleOfContent += `
-      * [Description](#Description)`
+    tebleOfContent += `\n* [Description](#Description)`
    }
    if(Response.installation !== ''){
-    tebleOfContent += `
-    * [Installation](#installation)`;
-
+    tebleOfContent += `\n* [Installation](#installation)`;
    }
    if(Response.usage !== ''){
-    tebleOfContent += `
-     * [Usage](#usage)`
+    tebleOfContent += `\n* [Usage](#usage)`
    } 
    if(Response.contributing  !== ''){
-    tebleOfContent += ` 
-    * [Contributing](#contributing )`
+    tebleOfContent += `\n* [Contributing](#contributing )`
    } 
    if(Response.tests !== ''){
-    tebleOfContent += ` 
-    * [Tests](#tests)`
+    tebleOfContent += `\n* [Tests](#tests)`
    } 
    if(Response.license !== ''){
-    tebleOfContent += `
-     * [license](#license)`
+    tebleOfContent += `\n* [license](#license)`
    } ;
    
    
@@ -49,19 +42,15 @@ module.exports = function generateMarkdown(Response) {
    ## Description 
    ${Response.description}
 
-   ## Installation 
-   ${Response.installation}
  `  
   // Add Table of Contents to markdown
     ReadMePage += tebleOfContent
 
     // Optional Installation section
     
-   /* if(Response.installation !== ''){
+    if(Response.installation !== ''){
 
-      ReadMePage +=`
-
-      ## Installation 
+      ReadMePage +=`\n## Installation 
 
       *Steps required to install project and how to get the development environment running:*
 
@@ -72,9 +61,7 @@ module.exports = function generateMarkdown(Response) {
      // Optional Installation section
 
      if(Response.usage !==''){
-      ReadMePage += `
-
-      ## usage
+      ReadMePage += `\n## usage
       
       ${Response.usage}
       
@@ -84,9 +71,7 @@ module.exports = function generateMarkdown(Response) {
      // Optional Contributing section
 
      if(Response.usage !==''){
-      ReadMePage += `
-
-      ## Contributing
+      ReadMePage += `\n## Contributing
       
       ${Response.contributing}
       
@@ -95,9 +80,7 @@ module.exports = function generateMarkdown(Response) {
     
 
      if(Response.tests !==''){
-      ReadMePage += `
-
-      ## Tests
+      ReadMePage += `\n## Tests
       
       ${Response.tests}
       
@@ -106,9 +89,7 @@ module.exports = function generateMarkdown(Response) {
 
 
      if(Response.license !==''){
-      ReadMePage += `
-
-      ## License
+      ReadMePage += `\n## License
 
       licensed under the ${Response.license}
       
@@ -119,14 +100,11 @@ module.exports = function generateMarkdown(Response) {
 
    if (Response.email !== null) {
   
-    ReadMePage +=
-    `
-    ## Questions
+    ReadMePage +=`\n## Questions
 
     Email: ${Response.email}
     Follow me on Github at [${Response.github}](http://github.com/${Response.github})`;
     };
-*/
       
   return ReadMePage;
 
