@@ -15,15 +15,17 @@
 * npm install
       
 ## usage
-generate
+generate readme
       
       
 ## Contributing
-undefined
+*Instructions and examples for use:*
+*undefined
       
 ## License
-licensed under the GNU AGPLv3,Apache License 2.0
+GNU GPLv3,GNU LGPLv3
       
 ## Questions
-Email: shiva
-Follow me on Github: [shiva-shiva](http://github.com/shiva-shiva)
+Email: shiva@gmail.com
+
+    Follow me on Github: [shiva-shiva](http://github.com/shiva-shiva)

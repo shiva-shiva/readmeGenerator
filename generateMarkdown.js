@@ -63,19 +63,19 @@ module.exports = function generateMarkdown(Response) {
      // Optional Contributing section
 
      if(Response.usage !==''){
-      ReadMePage += `\n## Contributing\n${Response.contributing}
+      ReadMePage += `\n## Contributing\n*Instructions and examples for use:*\n*${Response.contributing}
       `
      };
     
 
      if(Response.tests !==''){
-      ReadMePage += `\n## Tests\n${Response.tests} 
+      ReadMePage += `\n## Tests\n*Tests for application and how to run them:*\n*${Response.tests} 
       `
      };
 
 
      if(Response.license !==''){
-      ReadMePage += `\n## License\nlicensed under the ${Response.license}
+      ReadMePage += `\n## License\n${Response.license}
       `
      };
     
@@ -83,7 +83,8 @@ module.exports = function generateMarkdown(Response) {
 
    if (Response.email !== null) {
   
-    ReadMePage +=`\n## Questions\nEmail: ${Response.email}\nFollow me on Github: [${Response.github}](http://github.com/${Response.github})`;
+    ReadMePage +=`\n## Questions\nEmail: ${Response.email}\n
+    Follow me on Github: [${Response.github}](http://github.com/${Response.github})`;
     };
       
   return ReadMePage;
