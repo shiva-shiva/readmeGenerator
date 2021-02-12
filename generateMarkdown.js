@@ -29,16 +29,16 @@ module.exports = function generateMarkdown(Response , userInfo) {
    } 
    if(Response.contributing  !== ''){
     tebleOfContent += ` 
-    * [contributing ](#contributing )`
+    * [Contributing](#contributing )`
    } 
    if(Response.tests !== ''){
     tebleOfContent += ` 
-    * [tests](#tests)`
+    * [Tests](#tests)`
    } 
    if(Response.license !== ''){
     tebleOfContent += `
      * [license](#license)`
-   } 
+   } ;
    
 
    let ReadMePage = `
