@@ -41,8 +41,8 @@ module.exports = function generateMarkdown(Response , userInfo) {
      * [license](#license)`
    } ;
    
-
-   let ReadMePage = `
+   
+  /* let ReadMePage = `
 
    #${Response.title}
 
@@ -55,7 +55,7 @@ module.exports = function generateMarkdown(Response , userInfo) {
 
     // Optional Installation section
     
-    
+    if(Response.installation !== ''){
 
       ReadMePage +=`
 
@@ -65,7 +65,7 @@ module.exports = function generateMarkdown(Response , userInfo) {
 
       * ${Response.installation}
       `
-    
+    };
 
      // Optional Installation section
 
@@ -126,6 +126,6 @@ module.exports = function generateMarkdown(Response , userInfo) {
     };
 
       
-  return ReadMePage;
+  return ReadMePage;*/
 
   }
