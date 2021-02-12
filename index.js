@@ -46,12 +46,12 @@ async function ReadMe(){
           },
           {
             type: "input",
-            name: "email",
+            name: "username",
             message: "Please enter your GitHub username: "
           },
           {
             type: "input",
-            name: "username",
+            name: "email",
             message: "Please enter your email: "
           },
           {
