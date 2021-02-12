@@ -17,11 +17,11 @@ module.exports = function generateMarkdown(Response , userInfo) {
 
    if(Response.description !== ''){
     tebleOfContent += `
-      * [Description](#Description)`
+      [Description](#Description)`
    }
    if(Response.installation !== ''){
     tebleOfContent += `
-    * [Installation](#installation)`;
+     [Installation](#installation)`;
 
    }
    if(Response.usage !== ''){
@@ -42,7 +42,7 @@ module.exports = function generateMarkdown(Response , userInfo) {
    } ;
    
    
-  /* let ReadMePage = `
+   let ReadMePage = `
 
    #${Response.title}
 
@@ -55,7 +55,7 @@ module.exports = function generateMarkdown(Response , userInfo) {
 
     // Optional Installation section
     
-    if(Response.installation !== ''){
+   /* if(Response.installation !== ''){
 
       ReadMePage +=`
 
@@ -124,8 +124,8 @@ module.exports = function generateMarkdown(Response , userInfo) {
     Email: ${Response.email}
     Follow me on Github at [${Response.github}](http://github.com/${Response.github})`;
     };
-
+*/
       
-  return ReadMePage;*/
+  return ReadMePage;
 
   }
