@@ -57,11 +57,12 @@ module.exports = function generateMarkdown(Response , userInfo) {
     if(Response.installation !== ''){
 
       ReadMePage +=`
+
       ## Installation 
 
       *Steps required to install project and how to get the development environment running:*
 
-      ${Response.installation}
+      * ${Response.installation}
       `
     };
 
