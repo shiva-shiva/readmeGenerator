@@ -1,8 +1,7 @@
 
 <h1 align="center"> Welcome to readme generator👋</h1>
 
-
-   ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/shiva-shiva/readmeGenerator/?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/shiva-shiva/readmeGenerator/?style=flat&logo=appveyor)
+![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/shiva-shiva/readmeGenerator/?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/shiva-shiva/readmeGenerator/?style=flat&logo=appveyor)
    
    
 
@@ -39,10 +38,9 @@
 *3 
       
 ## 📝License
-GNU AGPLv3<br/>
-       ![Badge for GitHub licence](https://img.shields.io/github/license/shiva-shiva/readmeGenerator/shiva-shiva/?style=flat&logo=appveyor)
+ ![Badge for GitHub licence](https://img.shields.io/github/license/shiva-shiva/readmeGenerator/shiva-shiva/?style=flat&logo=appveyor)
       
 ## Questions
 <br/>:octocat: Find me on GitHub:[shiva-shiva](https://github.com/shiva-shiva)<br />
     <br />
-    ✉️ Email me with any questions: <br />shivasabokdast@gmail.com<br />
+    ✉️ Email me with any questions: shivasabokdast@gmail.com
