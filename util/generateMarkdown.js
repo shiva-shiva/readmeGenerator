@@ -39,12 +39,14 @@ module.exports = function generateMarkdown(Response) {
 
    ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/${Response.username}/${Response.repo}?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/${Response.username}/${Response.repo}?style=flat&logo=appveyor)
    
+   
 
 
    ## Description 
    ${Response.description}
 
  `  
+   ReadMePage +=`\n## Demo\n<br/>[Demo](./src/readme.gif)`
   // Add Table of Contents to markdown
     ReadMePage += tebleOfContent
 
