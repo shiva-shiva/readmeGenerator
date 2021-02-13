@@ -46,7 +46,7 @@ module.exports = function generateMarkdown(Response) {
    ${Response.description}
 
  `  
-   ReadMePage +=`\n## Demo\n<br/>[Demo](./src/readme.gif)`
+   ReadMePage +=`\n## ✨Demo\n<br/>[Demo](./src/readme.gif)`
   // Add Table of Contents to markdown
     ReadMePage += tebleOfContent
 
@@ -81,7 +81,7 @@ module.exports = function generateMarkdown(Response) {
 
 
      if(Response.license !==''){
-      ReadMePage += `\n## License\n${Response.license}<br/>
+      ReadMePage += `\n## 📝License\n${Response.license}<br/>
        ![Badge for GitHub licence](https://img.shields.io/github/license/${Response.username}/${Response.repo}?style=flat&logo=appveyor)
       `
      };

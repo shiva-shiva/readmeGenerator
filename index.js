@@ -25,7 +25,7 @@ async function ReadMe(){
         {
             type: "input",
             name: "usage",
-            message: "What is the use of the application"
+            message: "What is this project usage for?"
           },
           {
             type: "input",
@@ -35,10 +35,10 @@ async function ReadMe(){
           {
             type: "input",
             name: "tests",
-            message: "Please provide test instructions if applicable"
+            message: "Please provide test instructions if applicable:"
           },
           {
-            type: "list",
+            type: "checkbox",
             message: "Chose the appropriate license for this project:",
             name: "license",
             choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense'],
