@@ -64,5 +64,4 @@ async function ReadMe(){
     fs.writeFileSync( 'ReadmeExampale.md', generateMarkdown(Response) )
 }
 ReadMe()
-//const output= ReadMe().then(Response => generateMarkdown(Response.title))
-//fs.writeFileSync( 'Readme.md', output )
+
