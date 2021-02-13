@@ -1,12 +1,12 @@
 
-<h1 align="center"> dwef👋</h1>
+<h1 align="center"> readme👋</h1>
 
-   ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/shiva-shiva/shiva-shiva?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/shiva-shiva/shiva-shiva?style=flat&logo=appveyor)
+   ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/w	d/	dq?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/w	d/	dq?style=flat&logo=appveyor)
    
 
 
    ## Description 
-   erfgreg
+   swsd
 
   ## Table of Contents
 * [Description](#Description)
@@ -17,27 +17,25 @@
 * [license](#license)
 ## Installation
 *Steps required to install project and how to get the development environment running:*
-* regferg
+* wdw
       
 ## usage
-*Instructions and examples for use:*
-💻 er
+*Instructions and examples for use:*</br>💻 wdwqd
       
       
 ## Contributing
-*Contributions, issues and feature requests are welcome.*
-🤝 gfereg
+*Contributions, issues and feature requests are welcome.*</br>🤝 qwd
       
 ## Tests
 *Tests for application and how to run them:*
-*earg 
+*wd 
       
 ## License
-MIT License
-       ![Badge for GitHub licence](https://img.shields.io/github/license/shiva-shiva/shiva-shiva?style=flat&logo=appveyor)
+GNU AGPLv3
+       ![Badge for GitHub licence](https://img.shields.io/github/license/w	d/	dq?style=flat&logo=appveyor)
       
 ## Questions
 <br />
-    :octocat: Find me on GitHub: ![shiva-shiva](https://github.com/shiva-shiva)<br />
+    :octocat: Find me on GitHub: ![w	d](https://github.com/w	d)<br />
     <br />
-    ✉️ Email me with any questions: shivasabokdast@gmail.com<br /><br />
+    ✉️ Email me with any questions: 	qd<br /><br />
