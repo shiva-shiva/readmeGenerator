@@ -29,7 +29,7 @@
 ## usage
 *Instructions and examples for use:*</br>
 
-       💻 When you run node index.js, the application uses the inquirer package to prompt you in the command line with a series of questions about your GitHub and about your project.
+💻 When you run node index.js, the application uses the inquirer package to prompt you in the command line with a series of questions about your GitHub and about your project.
       
       
 ## 🤝Contributing
