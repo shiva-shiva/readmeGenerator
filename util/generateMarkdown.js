@@ -2,7 +2,7 @@
 // TODO: Create a function to generate markdown for README
 module.exports = function generateMarkdown(Response) {
 
-    let tebleOfContent =` ## Table of Contents`
+    let tebleOfContent =`## Table of Contents`
 
    if(Response.description !== ''){
     tebleOfContent += `\n* [Description](#Description)`

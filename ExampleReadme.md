@@ -1,5 +1,5 @@
 
-<h1 align="center"> README Generator👋</h1>
+<h1 align="center"> README GENERATOR👋</h1>
 
    ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/shiva-shiva/readmeGenerator?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/shiva-shiva/readmeGenerator?style=flat&logo=appveyor)
    
@@ -11,7 +11,7 @@
 
  
 ## ✨Demo
-<br/>![Demo](./src/readme.gif)<br/> ## Table of Contents
+<br/>![Demo](./src/readme.gif)<br/>## Table of Contents
 * [Description](#Description)
 * [Installation](#installation)
 * [Usage](#usage)
@@ -29,7 +29,7 @@
 *Contributions, issues and feature requests are welcome.*</br> shiva
       
 ## 📝License
-<br/>
+MIT License<br/>
        ![Badge for GitHub licence](https://img.shields.io/github/license/shiva-shiva/readmeGenerator?style=flat&logo=appveyor)
       
 ## Questions
