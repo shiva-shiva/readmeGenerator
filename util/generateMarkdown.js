@@ -69,7 +69,7 @@ module.exports = function generateMarkdown(Response) {
      // Optional Contributing section
 
      if(Response.contributing !==''){
-      ReadMePage += `\n## Contributing\n*Contributions, issues and feature requests are welcome.*</br>🤝 ${Response.contributing}
+      ReadMePage += `\n## 🤝Contributing\n*Contributions, issues and feature requests are welcome.*</br>🤝 ${Response.contributing}
       `
      };
     

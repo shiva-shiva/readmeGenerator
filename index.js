@@ -61,7 +61,7 @@ async function ReadMe(){
           }
     ]);
      //const userInfo = await api.getUser(Response)
-    fs.writeFileSync( 'ReadmeExampale.md', generateMarkdown(Response) )
+    fs.writeFileSync( 'ExampleReadme.md', generateMarkdown(Response) )
 }
 ReadMe()
 
