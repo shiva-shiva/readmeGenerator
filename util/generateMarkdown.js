@@ -88,8 +88,8 @@ module.exports = function generateMarkdown(Response) {
 
    if (Response.email !== null) {
   
-    ReadMePage +=`\n## Questions\n<br />
-    :octocat: Find me on GitHub: ![${Response.username}](https://github.com/${Response.username})<br />
+    ReadMePage +=`\n## Questions\n<br/>
+    :octocat: Find me on GitHub:[${Response.username}](https://github.com/${Response.username})<br />
     <br />
     ✉️ Email me with any questions: ${Response.email}<br /><br />`;
     };

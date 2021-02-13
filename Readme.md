@@ -1,41 +1,36 @@
 
-<h1 align="center"> readme👋</h1>
+<h1 align="center"> read me👋</h1>
 
-   ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/w	d/	dq?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/w	d/	dq?style=flat&logo=appveyor)
+   ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/shiva-shiva/readmeGenerator?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/shiva-shiva/readmeGenerator?style=flat&logo=appveyor)
    
 
 
    ## Description 
-   swsd
+   read me
 
   ## Table of Contents
 * [Description](#Description)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing )
-* [Tests](#tests)
 * [license](#license)
 ## Installation
 *Steps required to install project and how to get the development environment running:*
-* wdw
+* npm init
       
 ## usage
-*Instructions and examples for use:*</br>💻 wdwqd
+*Instructions and examples for use:*</br>💻 node index.js
       
       
 ## Contributing
-*Contributions, issues and feature requests are welcome.*</br>🤝 qwd
-      
-## Tests
-*Tests for application and how to run them:*
-*wd 
+*Contributions, issues and feature requests are welcome.*</br>🤝 shiva
       
 ## License
-GNU AGPLv3
-       ![Badge for GitHub licence](https://img.shields.io/github/license/w	d/	dq?style=flat&logo=appveyor)
+MIT License
+       ![Badge for GitHub licence](https://img.shields.io/github/license/shiva-shiva/readmeGenerator?style=flat&logo=appveyor)
       
 ## Questions
-<br />
-    :octocat: Find me on GitHub: ![w	d](https://github.com/w	d)<br />
+<br/>
+    :octocat: Find me on GitHub:[shiva-shiva](https://github.com/shiva-shiva)<br />
     <br />
-    ✉️ Email me with any questions: 	qd<br /><br />
+    ✉️ Email me with any questions: shiva@sabokdast@gmail.com<br /><br />
