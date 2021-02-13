@@ -24,7 +24,7 @@
       
       
 ## 🤝Contributing
-*Contributions, issues and feature requests are welcome.*</br> Contributions, issues and feature requests are welcome
+*Contributions, issues and feature requests are welcome.*</br>
       
 ## 📝License
 MIT License<br/>
