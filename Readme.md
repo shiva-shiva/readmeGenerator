@@ -6,12 +6,13 @@
    
 
 
-   ## Description 
+## Description 
    reg
 
  
 ## Demo
-<br/>[Demo](./src/readme.gif)
+
+![Demo](./src/readme.gif)
 
  ## Table of Contents
 * [Description](#Description)
