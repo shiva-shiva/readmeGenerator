@@ -11,8 +11,8 @@
    reg
 
 
-✨ 
-## Demo
+ 
+## ✨Demo
 
 ![Demo](./src/readme.gif)
 
@@ -31,14 +31,14 @@
 *Instructions and examples for use:*</br>💻 q3r2tr2
       
       
-## Contributing
-*Contributions, issues and feature requests are welcome.*</br>🤝 3rt23tr2w
+## 🤝Contributing
+*Contributions, issues and feature requests are welcome.*</br>3rt23tr2w
       
 ## Tests
 *Tests for application and how to run them:*
 *3 
       
-## License
+## 📝License
 GNU AGPLv3<br/>
        ![Badge for GitHub licence](https://img.shields.io/github/license/shiva-shiva/readmeGenerator/shiva-shiva/?style=flat&logo=appveyor)
       
