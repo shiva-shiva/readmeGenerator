@@ -7,7 +7,7 @@
 
 
    ## Description 
-   create read me
+   jwjdwd
 
  
 ## Demo
@@ -15,14 +15,23 @@
 * [Description](#Description)
 * [Installation](#installation)
 * [Usage](#usage)
+* [Contributing](#contributing )
+* [Tests](#tests)
 * [license](#license)
 ## Installation
 *Steps required to install project and how to get the development environment running:*
-* npm init
+* ded
       
-## usage
-*Instructions and examples for use:*</br>💻 node index.js
+## 💻usage
+*Instructions and examples for use:*</br> qwd
       
+      
+## 🤝Contributing
+*Contributions, issues and feature requests are welcome.*</br> qwd
+      
+## Tests
+*Tests for application and how to run them:*
+*qfd 
       
 ## License
 MIT License<br/>

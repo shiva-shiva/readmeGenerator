@@ -2,6 +2,7 @@
 <h1 align="center"> Welcome to readme generator👋</h1>
 
 ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/shiva-shiva/readmeGenerator?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/shiva-shiva/readmeGenerator?style=flat&logo=appveyor)
+![Badge for GitHub licence](https://img.shields.io/github/license/shiva-shiva/readmeGenerator?style=flat&logo=appveyor)
    
 
 
@@ -44,7 +45,7 @@ To generate your own README, first run npm install in order to install the follo
       
       
 ## 📝License
- ![Badge for GitHub licence](https://img.shields.io/github/license/shiva-shiva/readmeGenerator/shiva-shiva/?style=flat&logo=appveyor)
+![Badge for GitHub licence](https://img.shields.io/github/license/shiva-shiva/readmeGenerator?style=flat&logo=appveyor)
       
 ## Questions
 <br/>:octocat: Find me on GitHub:[shiva-shiva](https://github.com/shiva-shiva)<br />
