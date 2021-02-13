@@ -24,7 +24,6 @@ The README.md file is created in the dist directory and can be found [here](./sr
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing )
-* [Tests](#tests)
 * [license](#license)
 ## Installation
 *Steps required to install project and how to get the development environment running:*
@@ -44,8 +43,6 @@ To generate your own README, first run npm install in order to install the follo
 ## 🤝Contributing
 *Contributions, issues and feature requests are welcome.*</br>
       
-## Tests
-*Tests for application and how to run them:
       
 ## 📝License
  ![Badge for GitHub licence](https://img.shields.io/github/license/shiva-shiva/readmeGenerator/shiva-shiva/?style=flat&logo=appveyor)
