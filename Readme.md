@@ -1,12 +1,12 @@
 
-<h1 align="center"> reagd me👋</h1>
+<h1 align="center"> dwef👋</h1>
 
-   ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/shiva-shiva/readmeGenerator?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/shiva-shiva/readmeGenerator?style=flat&logo=appveyor)
+   ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/shiva-shiva/shiva-shiva?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/shiva-shiva/shiva-shiva?style=flat&logo=appveyor)
    
 
 
    ## Description 
-   generate 
+   erfgreg
 
   ## Table of Contents
 * [Description](#Description)
@@ -17,25 +17,24 @@
 * [license](#license)
 ## Installation
 *Steps required to install project and how to get the development environment running:*
-* yes
+* regferg
       
 ## usage
 *Instructions and examples for use:*
-* fef
+💻 er
       
       
 ## Contributing
 *Contributions, issues and feature requests are welcome.*
-* 
-        🤝 shiva
+🤝 gfereg
       
 ## Tests
 *Tests for application and how to run them:*
-*ff 
+*earg 
       
 ## License
 MIT License
-       ![Badge for GitHub licence](https://img.shields.io/github/license/shiva-shiva/readmeGenerator?style=flat&logo=appveyor)
+       ![Badge for GitHub licence](https://img.shields.io/github/license/shiva-shiva/shiva-shiva?style=flat&logo=appveyor)
       
 ## Questions
 <br />
