@@ -27,8 +27,9 @@
 
 To generate your own README, first run npm install in order to install the following npm package dependencies as specified in the package.json:
 
-inquirer that will prompt you for your inputs from the command line
-The application itself can be invoked with node index.js.
+       inquirer that will prompt you for your inputs from the command line
+
+       The application itself can be invoked with node index.js.
       
 ## 💻usage
 *Instructions and examples for use:*</br>
