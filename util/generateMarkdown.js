@@ -79,7 +79,7 @@ module.exports = function generateMarkdown(Response) {
 
 
      if(Response.license !==''){
-      ReadMePage += `\n## License\n${Response.license}
+      ReadMePage += `\n## License\n${Response.license}<br/>
        ![Badge for GitHub licence](https://img.shields.io/github/license/${Response.username}/${Response.repo}?style=flat&logo=appveyor)
       `
      };
@@ -88,8 +88,7 @@ module.exports = function generateMarkdown(Response) {
 
    if (Response.email !== null) {
   
-    ReadMePage +=`\n## Questions\n<br/>
-    :octocat: Find me on GitHub:[${Response.username}](https://github.com/${Response.username})<br />
+    ReadMePage +=`\n## Questions\n<br/>:octocat: Find me on GitHub:[${Response.username}](https://github.com/${Response.username})<br />
     <br />
     ✉️ Email me with any questions: ${Response.email}<br /><br />`;
     };
