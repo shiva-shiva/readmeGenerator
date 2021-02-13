@@ -1,5 +1,6 @@
 
-<h1 align="center"> Read Me👋</h1>
+<h1 align="center"> Welcome to readme generator👋</h1>
+
 
    ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/shiva-shiva/readmeGenerator/?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/shiva-shiva/readmeGenerator/?style=flat&logo=appveyor)
    
@@ -9,7 +10,8 @@
 ## Description 
    reg
 
- 
+
+✨ 
 ## Demo
 
 ![Demo](./src/readme.gif)
@@ -43,4 +45,4 @@ GNU AGPLv3<br/>
 ## Questions
 <br/>:octocat: Find me on GitHub:[shiva-shiva](https://github.com/shiva-shiva)<br />
     <br />
-    ✉️ Email me with any questions: <br /><br />
+    ✉️ Email me with any questions: <br />shivasabokdast@gmail.com<br />
