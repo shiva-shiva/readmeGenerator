@@ -11,7 +11,7 @@
 
  
 ## ✨Demo
-<br/>[Demo](./src/readme.gif) ## Table of Contents
+<br/>![Demo](./src/readme.gif)<br/> ## Table of Contents
 * [Description](#Description)
 * [Installation](#installation)
 * [Usage](#usage)
@@ -29,7 +29,7 @@
 *Contributions, issues and feature requests are welcome.*</br> shiva
       
 ## 📝License
-MIT License<br/>
+<br/>
        ![Badge for GitHub licence](https://img.shields.io/github/license/shiva-shiva/readmeGenerator?style=flat&logo=appveyor)
       
 ## Questions
