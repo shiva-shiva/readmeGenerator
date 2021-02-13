@@ -36,7 +36,7 @@ module.exports = function generateMarkdown(Response) {
    
    
    let ReadMePage = `\n<h1 align="center"> ${Response.title}👋</h1>
-   
+
    ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/${Response.username}/${Response.repo}?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/${Response.username}/${Response.repo}?style=flat&logo=appveyor)
    
 
@@ -67,7 +67,8 @@ module.exports = function generateMarkdown(Response) {
      // Optional Contributing section
 
      if(Response.contributing !==''){
-      ReadMePage += `🤝 \n## Contributing\n*Contributions, issues and feature requests are welcome.*\n* ${Response.contributing}
+      ReadMePage += `\n## Contributing\n*Contributions, issues and feature requests are welcome.*\n* 
+        🤝 ${Response.contributing}
       `
      };
     
@@ -89,7 +90,7 @@ module.exports = function generateMarkdown(Response) {
    if (Response.email !== null) {
   
     ReadMePage +=`\n## Questions\n<br />
-    :octocat: Find me on GitHub: [${Response.username}](https://github.com/${Response.username})<br />
+    :octocat: Find me on GitHub: ![${Response.username}](https://github.com/${Response.username})<br />
     <br />
     ✉️ Email me with any questions: ${Response.email}<br /><br />`;
     };
