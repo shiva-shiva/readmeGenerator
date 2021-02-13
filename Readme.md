@@ -1,7 +1,7 @@
 
-<h1 align="center"> j👋</h1>
+<h1 align="center"> Read Me👋</h1>
 
-   ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top//?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit//?style=flat&logo=appveyor)
+   ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/shiva-shiva/readmeGenerator/?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/shiva-shiva/readmeGenerator/?style=flat&logo=appveyor)
    
    
 
@@ -11,7 +11,9 @@
 
  
 ## Demo
-<br/>[Demo](./src/readme.gif) ## Table of Contents
+<br/>[Demo](./src/readme.gif)
+
+ ## Table of Contents
 * [Description](#Description)
 * [Installation](#installation)
 * [Usage](#usage)
@@ -35,9 +37,9 @@
       
 ## License
 GNU AGPLv3<br/>
-       ![Badge for GitHub licence](https://img.shields.io/github/license//?style=flat&logo=appveyor)
+       ![Badge for GitHub licence](https://img.shields.io/github/license/shiva-shiva/readmeGenerator/shiva-shiva/?style=flat&logo=appveyor)
       
 ## Questions
-<br/>:octocat: Find me on GitHub:[](https://github.com/)<br />
+<br/>:octocat: Find me on GitHub:[shiva-shiva](https://github.com/shiva-shiva)<br />
     <br />
     ✉️ Email me with any questions: <br /><br />
