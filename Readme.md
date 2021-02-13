@@ -42,11 +42,10 @@ To generate your own README, first run npm install in order to install the follo
       
       
 ## 🤝Contributing
-*Contributions, issues and feature requests are welcome.*</br>3rt23tr2w
+*Contributions, issues and feature requests are welcome.*</br>
       
 ## Tests
-*Tests for application and how to run them:*
-*3 
+*Tests for application and how to run them:
       
 ## 📝License
  ![Badge for GitHub licence](https://img.shields.io/github/license/shiva-shiva/readmeGenerator/shiva-shiva/?style=flat&logo=appveyor)
